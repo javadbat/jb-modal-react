@@ -1,0 +1,34 @@
+{
+  "name": "jb-modal-react",
+  "description": "modal react component",
+  "type": "module",
+  "author": {
+		"name": "mohammad javad bathaei",
+		"email": "javadbat@gmail.com"
+	},
+  "keywords": [
+    "jb",
+    "jb-modal",
+    "react component",
+    "dialog",
+    "modal window",
+    "pop up"
+  ],
+  "version": "1.0.0",
+  "bugs": "https://github.com/javadbat/jb-modal-react/issues",
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib/",
+    "dist/"
+  ],
+  "main": "index.js",
+  "repository": {
+		"type": "git",
+		"url": "git@github.com:javadbat/jb-modal-react.git"
+  },
+  "dependencies": {
+    "jb-modal": ">=1.0.0"
+  }
+}
