@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import React, { useEffect, useImperativeHandle, useRef, useState } from 'react';
 import 'jb-modal';
+// eslint-disable-next-line no-duplicate-imports
 import { JBModalWebComponent } from 'jb-modal';
 import { useEvent } from '../../custom-hooks/UseEvent';
 export type JBModalProps = {
@@ -22,7 +23,7 @@ declare global {
       }
     }
 }
-const JBModal = React.forwardRef((props: JBModalProps, ref) => {
+const JBModal = React.forwardRef((props:JBModalProps, ref) => {
     const element = useRef<JBModalWebComponent>(null);
     const [refChangeCount, refChangeCountSetter] = useState(0);
     useImperativeHandle(
