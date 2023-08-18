@@ -14,7 +14,7 @@
     "modal window",
     "pop up"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bugs": "https://github.com/javadbat/jb-modal-react/issues",
   "license": "MIT",
   "files": [
@@ -24,11 +24,12 @@
     "dist/"
   ],
   "main": "index.js",
+  "types": "./dist/jb-modal/lib/JBModal.d.ts",
   "repository": {
 		"type": "git",
 		"url": "git@github.com:javadbat/jb-modal-react.git"
   },
   "dependencies": {
-    "jb-modal": ">=1.0.0"
+    "jb-modal": ">=1.5.3"
   }
 }

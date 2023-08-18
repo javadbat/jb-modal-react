@@ -1,2 +1,1 @@
-import JBModal from './dist/JBModal.js';
-export default JBModal;
+export {JBModal} from './dist/JBModal.js';
