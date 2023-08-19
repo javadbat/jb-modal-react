@@ -1,7 +1,15 @@
 # JBModal
 
-a react component modal that open in the center of your page
-the width and height of the modal depends on the width and the height of its content
+a react component modal that open different in mobile and desktop
+this component is React.js wrapper for [jb-modal](https://www.npmjs.com/package/jb-modal) web component.
+
+- open like bottomsheet in mobile and open in center position in desktop
+
+- customizable layout with css variable
+
+- support typescript
+
+- support custom url to adapt "back to close" on android and "auto open modal on refresh"
 
 ## installation 
 
@@ -12,7 +20,7 @@ the width and height of the modal depends on the width and the height of its con
 in your jsx file
 
 ```js
-    import JBModal from 'jb-modal-react'
+    import {JBModal} from 'jb-modal-react'
 ```
 ``` jsx
     <JBModal></JBModal>
@@ -63,3 +71,11 @@ example:
     [isModalOpen, setOpen] = useState(false);
     <JBModal onUrlOpen={() => setOpen(true)}></JBModal>
 ```
+## customize modal look
+
+you can customize modal look by following css properties
+| css variable name                  | description                                                                                   |
+| -------------                      | -------------                                                                                 |
+| --jb-modal-bg-color                | modal background color default is black `#fff`                                                |
+| --jb-modal-border-radius           | modal border-radius default `24px`                                                            |
+| --jb-modal-border-radius-mobile    | modal border-radius on mobile default is `24px 24px 0 0`                                      |

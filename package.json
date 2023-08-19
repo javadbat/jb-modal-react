@@ -11,10 +11,13 @@
     "jb-modal",
     "react component",
     "dialog",
+    "modal",
+    "react",
+    "react modal",
     "modal window",
     "pop up"
   ],
-  "version": "1.0.2",
+  "version": "1.1.0",
   "bugs": "https://github.com/javadbat/jb-modal-react/issues",
   "license": "MIT",
   "files": [
