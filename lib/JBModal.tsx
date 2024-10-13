@@ -3,7 +3,7 @@ import React, { useEffect, useImperativeHandle, useRef, useState } from 'react';
 import 'jb-modal';
 // eslint-disable-next-line no-duplicate-imports
 import { JBModalWebComponent } from 'jb-modal';
-import { useEvent } from '../../../common/hooks/use-event';
+import { useEvent } from '../../../common/hooks/use-event.js';
 export type JBModalProps = {
     onClose?: () => void,
     onUrlOpen?: () => void,
