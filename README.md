@@ -1,5 +1,8 @@
 # JBModal
 
+> [!WARNING]  
+> This package is deprecated and moved to [jb-modal/react](https://github.com/javadbat/jb-modal/tree/main/react)
+
 a react component modal that open different in mobile and desktop
 this component is React.js wrapper for [jb-modal](https://www.npmjs.com/package/jb-modal) web component.
 
